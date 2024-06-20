@@ -1,4 +1,4 @@
-# PORTFOLIO WEBSITE
+# PIANO WEBSITE
 
 Welcome to my Github! This website is a piano website.
 
