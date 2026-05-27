@@ -53,33 +53,39 @@
     <script src="script.js" defer></script>
   </head>
   <body class="bg-gray-100 flex items-center justify-center min-h-screen overflow-hidden">
-    <div id="app-wrapper" class="flex items-center justify-center w-full h-full">
-      <div class="p-8 md:p-6 rounded-2xl max-w-full">
+    <div id="app-wrapper" class="flex flex-col items-center justify-center w-full h-full">
+      <main class="p-8 md:p-6 rounded-2xl max-w-full" aria-label="Virtual Piano">
         <header class="flex flex-col md:flex-row items-center justify-center text-gray-400">
-          <a href="https://github.com/mubashir1837/piano" target="_blank">
-          <h2 class="text-2xl md:text-4xl text-center text-black border-4 border-black mb-7 bg-yellow-100 py-2 px-4 rounded-xl font-serif ">Dream Piano</h2>
+          <a href="https://github.com/mubashir1837/piano" target="_blank" aria-label="Dream Piano GitHub Repository">
+          <h1 class="text-2xl md:text-4xl text-center text-black border-4 border-black mb-7 bg-yellow-100 py-2 px-4 rounded-xl font-serif">Dream Piano</h1>
         </a>
         </header>
+        
+        <!-- On-page SEO Content (Visually Hidden) -->
+        <div class="sr-only">
+          <p>Welcome to Dream Piano, a free online virtual piano application that allows you to play music directly in your web browser. Use your computer keyboard or tap the keys on your mobile device to play along. Perfect for learning, practicing, and creating music anywhere, anytime.</p>
+        </div>
+
         <ul class="flex mt-10 md:mt-8 list-none flex-nowrap justify-center piano-keys">
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="a"><span>a</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="w"><span>w</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="s"><span>s</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="e"><span>e</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="d"><span>d</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="f"><span>f</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="t"><span>t</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="g"><span>g</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="y"><span>y</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="h"><span>h</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="u"><span>u</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="j"><span>j</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="k"><span>k</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="o"><span>o</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="l"><span>l</span></li>
-          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="p"><span>p</span></li>
-          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key=";"><span>;</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="a" aria-label="Piano Key A"><span>a</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="w" aria-label="Piano Key W"><span>w</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="s" aria-label="Piano Key S"><span>s</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="e" aria-label="Piano Key E"><span>e</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="d" aria-label="Piano Key D"><span>d</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="f" aria-label="Piano Key F"><span>f</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="t" aria-label="Piano Key T"><span>t</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="g" aria-label="Piano Key G"><span>g</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="y" aria-label="Piano Key Y"><span>y</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="h" aria-label="Piano Key H"><span>h</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="u" aria-label="Piano Key U"><span>u</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="j" aria-label="Piano Key J"><span>j</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="k" aria-label="Piano Key K"><span>k</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="o" aria-label="Piano Key O"><span>o</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key="l" aria-label="Piano Key L"><span>l</span></li>
+          <li class="key black relative cursor-pointer select-none uppercase m-[2px]" data-key="p" aria-label="Piano Key P"><span>p</span></li>
+          <li class="key white relative cursor-pointer select-none uppercase m-[2px]" data-key=";" aria-label="Piano Key Semicolon"><span>;</span></li>
         </ul>
-      </div>
+      </main>
     </div>
     
     <script src="script.js"></script>
