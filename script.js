@@ -33,10 +33,14 @@ pianoKeys.forEach((key) => key.classList.toggle("hide"));
 };
 
 const pressedKey = (e) => {
-
-if (allKeys.includes(e.key)) playTune(e.key);
+const key = e.key.toLowerCase();
+if (allKeys.includes(key)) playTune(key);
 };
 
-keysCheckbox.addEventListener("click", showHideKeys);
-volumeSlider.addEventListener("input", handleVolume);
+if (keysCheckbox) {
+  keysCheckbox.addEventListener("click", showHideKeys);
+}
+if (volumeSlider) {
+  volumeSlider.addEventListener("input", handleVolume);
+}
 document.addEventListener("keydown", pressedKey);
