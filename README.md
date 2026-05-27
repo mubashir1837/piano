@@ -5,7 +5,7 @@ Welcome to my Github! This website is a piano website.
 <div align="center">
   <br />
     <a href="https://piano-org.vercel.app/" target="_blank">
-      <img src="./tunes/pianoe.PNG" alt="Project Banner">
+      <img src="./assets/og-image-piano.png" alt="Project Banner">
     </a>
   <br />
 
